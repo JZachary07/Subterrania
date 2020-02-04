@@ -1,0 +1,122 @@
+﻿<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{0536E485-4916-49D7-B664-6D5DDCA5ED6D}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <NoStandardLibraries>false</NoStandardLibraries>
+    <AssemblyName>ClassLibrary</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace>Subterrania</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include=".gitignore" />
+    <Content Include=".mono\assemblies\Debug\GodotSharp.dll" />
+    <Content Include=".mono\assemblies\Debug\GodotSharp.pdb" />
+    <Content Include=".mono\assemblies\Debug\GodotSharp.xml" />
+    <Content Include=".mono\assemblies\Debug\GodotSharpEditor.dll" />
+    <Content Include=".mono\assemblies\Debug\GodotSharpEditor.pdb" />
+    <Content Include=".mono\assemblies\Debug\GodotSharpEditor.xml" />
+    <Content Include="icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ChunkTable.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include=".git\config" />
+    <None Include=".git\description" />
+    <None Include=".git\FETCH_HEAD" />
+    <None Include=".git\HEAD" />
+    <None Include=".git\hooks\applypatch-msg.sample" />
+    <None Include=".git\hooks\commit-msg.sample" />
+    <None Include=".git\hooks\fsmonitor-watchman.sample" />
+    <None Include=".git\hooks\post-update.sample" />
+    <None Include=".git\hooks\pre-applypatch.sample" />
+    <None Include=".git\hooks\pre-commit.sample" />
+    <None Include=".git\hooks\pre-push.sample" />
+    <None Include=".git\hooks\pre-rebase.sample" />
+    <None Include=".git\hooks\pre-receive.sample" />
+    <None Include=".git\hooks\prepare-commit-msg.sample" />
+    <None Include=".git\hooks\update.sample" />
+    <None Include=".git\index" />
+    <None Include=".git\info\exclude" />
+    <None Include=".git\logs\HEAD" />
+    <None Include=".git\logs\refs\heads\master" />
+    <None Include=".git\logs\refs\remotes\origin\master" />
+    <None Include=".git\objects\05\0d9efa13931fbd80d7b881c40919d117c42ced" />
+    <None Include=".git\objects\2b\658158b6a2211b656d83fee35e3941e5ad376a" />
+    <None Include=".git\objects\31\d85dd7623e147a24c95e7b3a8232d3c1d506c0" />
+    <None Include=".git\objects\45\6c7a50900549f1d8dd5dcd19da8446e7773225" />
+    <None Include=".git\objects\4b\825dc642cb6eb9a060e54bf8d69288fbee4904" />
+    <None Include=".git\objects\51\4b6bd2ac207bfc55f6464d0092c5d26f8fd482" />
+    <None Include=".git\objects\53\a65f50819d9b9322e408f28da97be89ab3482e" />
+    <None Include=".git\objects\90\6db79049496a90bfdc1b62553a4fdfc0610118" />
+    <None Include=".git\objects\96\cbf4629a557eb7339eef87ad61b7e7d8c8f0e7" />
+    <None Include=".git\objects\9a\8974a6d8f82ab501a830a271a861562e9bf3f7" />
+    <None Include=".git\objects\9d\391832a878531e7fac3e56dc452ef806bd8785" />
+    <None Include=".git\objects\9d\df92a5e1f163b63cf999c2bdcaf5ec0d07e8b8" />
+    <None Include=".git\objects\a9\76507bf747999a8e7ad2b9f952e00443845dbe" />
+    <None Include=".git\objects\ad\491c4e2bfe48223f4eea6e05e653d0b5d241b4" />
+    <None Include=".git\objects\be\d479960185e5f9ef4c90fb9f1d347437b3b625" />
+    <None Include=".git\objects\d3\6b6b880e4b17c60245d7e0e29843b7077c010d" />
+    <None Include=".git\objects\e2\6b64980c2f110c3bfb39bae06e48b1b4aa552c" />
+    <None Include=".git\objects\e6\9de29bb2d1d6434b8b29ae775ad8c2e48c5391" />
+    <None Include=".git\objects\e7\3ee9119588a92136ea6c98c85b967832bc858c" />
+    <None Include=".git\objects\ea\786ff2cf69cdc0e487ad1cea3b8bd361eb66a3" />
+    <None Include=".git\ORIG_HEAD" />
+    <None Include=".git\refs\heads\master" />
+    <None Include=".git\refs\remotes\origin\master" />
+    <None Include=".import\icon.png-487276ed1e3a0c39cad0279d744ee560.md5" />
+    <None Include=".import\icon.png-487276ed1e3a0c39cad0279d744ee560.stex" />
+    <None Include=".mono\assemblies\Debug\api_hash_cache.cfg" />
+    <None Include=".vs\ProjectSettings.json" />
+    <None Include=".vs\slnx.sqlite" />
+    <None Include=".vs\Subterrania\v16\.suo" />
+    <None Include=".vs\VSWorkspaceState.json" />
+    <None Include="default_env.tres" />
+    <None Include="icon.png.import" />
+    <None Include="license.md" />
+    <None Include="Main.tscn" />
+    <None Include="project.godot" />
+    <None Include="readme.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include=".git\objects\info\" />
+    <Folder Include=".git\objects\pack\" />
+    <Folder Include=".git\refs\tags\" />
+    <Folder Include=".mono\metadata\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSHARP.Targets" />
+  <ProjectExtensions>
+    <VisualStudio AllowExistingFolder="true" />
+  </ProjectExtensions>
+</Project>
