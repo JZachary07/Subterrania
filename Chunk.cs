@@ -1,17 +1,15 @@
 ﻿using System;
+using Godot;
 
-namespace Subterrania
+namespace Subterrania.Core.Terrain
 {
-	namespace Terrain
+	public class Chunk
 	{
-		public class Chunk
-		{
-			private ChunkTable data;
+		private ChunkTable data;
 
-			public Chunk()
-			{
-				data = new ChunkTable();
-			}
+		public Chunk()
+		{
+			data = new ChunkTable();
 		}
 	}
 }
