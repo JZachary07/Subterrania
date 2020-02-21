@@ -19,12 +19,13 @@ namespace Subterrania.Core
 				_rotationX += mouseMotion.Relative.x * LookAroundSpeed;
 				_rotationY +=mouseMotion.Relative.y * LookAroundSpeed;
 				
-				Transform transform = Transform;
-				transform.basis = Basis.identity;
-				this.Transform = transform;
+				//Transform transform = Transform;
+				//transform.basis = Basis.IDENTITY;
+				//this.Transform = transform;
 				
-				RotateObjectLocal(Vector3.up, _rotationX);
-				RotateObjectLocal(Vector3.Right, _rotationY);
+				RotateObjectLocal(Vector3.UP, _rotationX);
+				RotateObjectLocal(Vector3.RIGHT, _rotationY);
+				// not currently compiling
 			}
 		}
 		
