@@ -12,8 +12,8 @@ Global
 		Tools|Any CPU = Tools|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{71211B22-3C69-4D93-BD21-ABDDBCD51388}.Debug|Any CPU.ActiveCfg = Tools|Any CPU
-		{71211B22-3C69-4D93-BD21-ABDDBCD51388}.Debug|Any CPU.Build.0 = Tools|Any CPU
+		{71211B22-3C69-4D93-BD21-ABDDBCD51388}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71211B22-3C69-4D93-BD21-ABDDBCD51388}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{71211B22-3C69-4D93-BD21-ABDDBCD51388}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{71211B22-3C69-4D93-BD21-ABDDBCD51388}.Release|Any CPU.Build.0 = Release|Any CPU
 		{71211B22-3C69-4D93-BD21-ABDDBCD51388}.Tools|Any CPU.ActiveCfg = Tools|Any CPU
